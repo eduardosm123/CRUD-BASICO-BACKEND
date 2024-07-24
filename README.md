@@ -1,2 +1,100 @@
-# CRUD-Basico-Backend
-API de produtos e categorias usando node.js, mongoose e express
+
+# API CRUD básico
+
+Esse projeto é uma api que permite realizar um CRUD de produtos e categorias.
+
+
+
+
+## Documentação da API
+
+### Categorias
+#### Retorna todas as categorias
+
+```http
+  GET /api/category
+```
+
+#### Retorna uma categoria
+
+```http
+  GET /api/category/:id
+```
+
+
+
+#### Cadastrar categoria
+
+```http
+  POST /api/category 
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `name` | `string` |  **Obrigatorio**. Nome da categoria | 
+
+
+#### Deletar Categoria
+
+```http
+  DELETE /api/category/:id
+```
+
+#### Atualizar categoria
+
+```http
+  PUT /api/category/:id 
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `name` | `string` |  **Obrigatorio**. Nome da categoria | 
+
+
+### Produtos
+#### Retorna todas as produtos
+
+```http
+  GET /api/product
+```
+
+#### Retorna um produto
+
+```http
+  GET /api/product/:id
+```
+
+
+
+#### Cadastrar produto
+
+```http
+  POST /api/product 
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `name` | `string` |  **Obrigatorio**. Nome do produto | 
+| `price` | `Number` |  **Obrigatorio**. Preço do produto | 
+| `description` | `string` |  Descrição do produto | 
+| `category` | `Category` |  **Obrigatorio**. Nome da categoria | 
+
+#### Deletar produto
+
+```http
+  DELETE /api/product/:id
+```
+
+#### Atualizar produto
+
+```http
+  PUT /api/product/:id 
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `name` | `string` |  **Obrigatorio**. Nome do produto | 
+| `price` | `Number` |  **Obrigatorio**. Preço do produto | 
+| `description` | `string` |  Descrição do produto | 
+| `category` | `Category` |  **Obrigatorio**. Nome da categoria | 
+
