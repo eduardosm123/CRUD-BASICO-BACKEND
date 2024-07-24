@@ -31,7 +31,7 @@ Esse projeto é uma api que permite realizar um CRUD de produtos e categorias.
 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `name` | `string` |  **Obrigatorio**. Nome da categoria | 
+| `name` | `String` |  **Obrigatorio**. Nome da categoria | 
 
 
 #### Deletar Categoria
@@ -48,7 +48,7 @@ Esse projeto é uma api que permite realizar um CRUD de produtos e categorias.
 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `name` | `string` |  **Obrigatorio**. Nome da categoria | 
+| `name` | `String` |  **Obrigatorio**. Nome da categoria | 
 
 
 ### Produtos
@@ -74,9 +74,9 @@ Esse projeto é uma api que permite realizar um CRUD de produtos e categorias.
 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `name` | `string` |  **Obrigatorio**. Nome do produto | 
+| `name` | `String` |  **Obrigatorio**. Nome do produto | 
 | `price` | `Number` |  **Obrigatorio**. Preço do produto | 
-| `description` | `string` |  Descrição do produto | 
+| `description` | `String` |  Descrição do produto | 
 | `category` | `Category` |  **Obrigatorio**. Nome da categoria | 
 
 #### Deletar produto
@@ -93,8 +93,8 @@ Esse projeto é uma api que permite realizar um CRUD de produtos e categorias.
 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `name` | `string` |  **Obrigatorio**. Nome do produto | 
+| `name` | `String` |  **Obrigatorio**. Nome do produto | 
 | `price` | `Number` |  **Obrigatorio**. Preço do produto | 
-| `description` | `string` |  Descrição do produto | 
+| `description` | `String` |  Descrição do produto | 
 | `category` | `Category` |  **Obrigatorio**. Nome da categoria | 
 
