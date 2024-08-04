@@ -9,7 +9,7 @@
 ## Tecnologia
 - Javascript
 - Mongoose
-- 
+- Express
 
 ## Documentação da API
 
