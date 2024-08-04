@@ -6,7 +6,10 @@
 - Codigo está na Branch master
 - Para executar localmente a aplicação execute o comando npm start
 
-
+## Tecnologia
+- Javascript
+- Mongoose
+- 
 
 ## Documentação da API
 
